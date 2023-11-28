@@ -1,0 +1,74 @@
+/* tabs plugin custom css */
+.dark .logseq-tab[data-active=true] {
+  background-color: #494b51;}
+.dark .logseq-tab[data-active=false] {
+  background-color: #27282b;}
+
+/*字体优先度*/
+/*:root{
+--ls-font-family: "思源宋体","Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+/*--ct-page-title-font-family: var(--ls-font-family) !important;
+}*/
+
+/*顶端距离*/
+#main-content-container {
+    padding-top: 30px !important;}
+
+/*侧边栏去图标*/
+/*.left-sidebar-inner .favorites .page-icon, .left-sidebar-inner .recent .page-icon {
+    display: none;
+}*/
+
+/*调节折叠圆圈大小*/
+/*.bullet-container.bullet-closed {
+  box-shadow: 0 0 0 2px var(--ls-block-bullet-border-color);
+}*/
+
+/*kindle标注的icon*/
+/*.my-highlights-open [viewBox] [d]{
+  fill: #808080;
+}*/
+
+/*白色主题下正文的字重*/
+/*.light-theme.white-theme #main-content-container .page-blocks-inner {
+  font-weight: 550;
+}*/
+
+/*引用的字体大小颜色*/
+/*#main-content-container .page-blocks-inner*/ blockquote{
+  font-size: 14.5px;
+  /*color: #888888;*/
+}
+/*#main-content-container .page-blocks-inner*/ /*blockquote b{
+  color: #888888!important;
+}*/
+/*#main-content-container .page-blocks-inner*/ /*blockquote .page-ref{
+  color: #628cce;
+}*/
+/*属性大小*/
+.block-properties {
+  font-size:13px;
+}
+/*Code字体*/
+/*.content :not(pre)>code{
+  font-family:思源黑体,MonoLisa,"Fira Code",Monaco,Menlo,Consolas,"COURIER NEW",monospace;
+}*/
+
+/* Journal下移 */
+.initial-color.title.journal-title .title{
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+/* left sidebar gap*/
+ #left-sidebar .nav-header {
+  gap: 0 !important;
+} 
+[class=ml-1] {
+  display: none;
+}
+
+/* link preview fix */
+#logseq-link-preview_lsp_main {
+  backdrop-filter: blur(3px) ; 
+}
